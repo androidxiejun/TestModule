@@ -1,0 +1,57 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:1:1-10:12
+	package
+		ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:2:5-40
+		INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
+		INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
+		ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:1:1-10:12
+		INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
+		ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:1:1-10:12
+		INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.CAMERA
+ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:6:22-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:9:5-83
+	android:name
+		ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:9:22-80
+uses-sdk
+INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
+INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
+INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
+INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
+		ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
+		INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
+		ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
+		INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
