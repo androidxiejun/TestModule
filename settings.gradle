@@ -6,8 +6,11 @@ def includeWithApi(String moduleName) {
     String originDir = project(moduleName).projectDir
     //这个是新的路径
     String targetDir = "${originDir}-api"
+
+    String originName=project(moduleName).name;
+
     //新模块的路径
-    def sdkName = "${project(moduleName).name}-api"
+    def sdkName = "${originName}-api"
 //    //新模块名字
 //    String apiName = "${moduleName.substring(1, moduleName.length())}-api"
 
@@ -32,11 +35,6 @@ def includeWithApi(String moduleName) {
         into "${targetDir}/src/main/"
     }
 
-    //file("${targetDir}/src/main/java/com/dhht/${apiName}/").mkdirs()
-
-    //修改AndroidManifest文件
-    //fileReader("${targetDir}/src/main/AndroidManifest.xml",apiName);
-
     //复制 gradle文件到新的路径，作为该模块的gradle
     copy() {
         from "${apiGradle}/api.gradle"
@@ -45,6 +43,18 @@ def includeWithApi(String moduleName) {
 
     //删除空文件夹
     deleteEmptyDir(new File(targetDir))
+
+    //todo 替换成自己的包名，这里是 com/dhht/
+    //为AndroidManifest新建路径
+    String packagePath = "${targetDir}/src/main/java/com/example/${originName}/api";
+
+    //修改AndroidManifest文件
+    fileReader("${targetDir}/src/main/AndroidManifest.xml", "commonlibrary","${originName}.api");
+
+    new File(packagePath).mkdirs()
+
+
+
 
     //重命名一下gradle
     def build = new File(targetDir + "/api.gradle")
@@ -56,7 +66,7 @@ def includeWithApi(String moduleName) {
     renameApiFiles(targetDir, '.api', '.java')
 
     //正常加载新的模块
-    include ":${sdkName}"
+    include ":$sdkName"
 }
 
 private void deleteEmptyDir(File dir) {
@@ -123,5 +133,6 @@ def fileReader(path, name, sdkName) {
     }
 }
 
-include ':app', ':commonlibrary'
+include ':app', ':commonlibrary', ':moduleb', ':baselibrary'
 includeWithApi(":modulea")
+includeWithApi(":moduleb")

@@ -1,13 +1,14 @@
 package com.example.xj.testjavatoapi;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import com.alibaba.android.arouter.facade.annotation.Route;
+import com.example.baselibrary.Constant;
+import com.example.commonlibrary.BaseActivity;
 
-public class MainActivity extends AppCompatActivity {
+@Route(path = Constant.ACTIVITY_ROUTE_APP)
+public class MainActivity extends BaseActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    protected int getLayoutId() {
+        return R.layout.activity_main;
     }
 }

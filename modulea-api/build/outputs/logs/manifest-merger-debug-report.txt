@@ -8,7 +8,7 @@ INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\Android
 INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:1:1-10:12
 INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:1:1-10:12
 	package
-		ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:2:5-40
+		ADDED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml:2:5-38
 		INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
 		INJECTED from D:\gun_master_workspace\TestJavaToApi\modulea-api\src\main\AndroidManifest.xml
 	android:versionName

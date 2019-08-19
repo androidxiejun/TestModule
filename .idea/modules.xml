@@ -4,9 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TestJavaToApi.iml" filepath="$PROJECT_DIR$/TestJavaToApi.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baselibrary/baselibrary.iml" filepath="$PROJECT_DIR$/baselibrary/baselibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/commonlibrary/commonlibrary.iml" filepath="$PROJECT_DIR$/commonlibrary/commonlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/modulea/modulea.iml" filepath="$PROJECT_DIR$/modulea/modulea.iml" />
       <module fileurl="file://$PROJECT_DIR$/modulea-api/modulea-api.iml" filepath="$PROJECT_DIR$/modulea-api/modulea-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moduleb/moduleb.iml" filepath="$PROJECT_DIR$/moduleb/moduleb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moduleb-api/moduleb-api.iml" filepath="$PROJECT_DIR$/moduleb-api/moduleb-api.iml" />
     </modules>
   </component>
 </project>
